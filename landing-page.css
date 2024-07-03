@@ -86,9 +86,9 @@ footer.cta-button {
     margin: 0 auto;
 }
 
-@media (max-width: 768px) { /* Example breakpoint for mobile */
+@media (max-width: 768px) { 
     section div {
-        flex-direction: column; /* Stack items vertically */
+        flex-direction: column; 
     }
     header img {
         width: 100%; 
@@ -98,8 +98,8 @@ footer.cta-button {
     
 }
 
-@media (min-width: 769px) { /* Example breakpoint for tablet and desktop */
+@media (min-width: 769px) 
     section div {
-        flex-direction: row; /* Default to horizontal layout */
+        flex-direction: row; 
     }
 }
